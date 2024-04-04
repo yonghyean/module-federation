@@ -1,0 +1,24 @@
+{
+  "name": "remote",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx serve -p 3001 ./dist",
+    "dev": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "typescript": "^5.4.2"
+  }
+}

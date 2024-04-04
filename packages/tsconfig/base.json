@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "composite": false,
+
+    /* Declaration 설정 관련 */
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Interop 및 모듈 관련 */
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+
+    /* 타입 체크 관련 */
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules"]
+}
